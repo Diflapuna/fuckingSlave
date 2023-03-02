@@ -5,7 +5,6 @@ import (
 	"io/ioutil"
 	"log"
 	"net/http"
-
 	"github.com/Diflapuna/fuckingSlave/factsService/models"
 )
 
@@ -43,3 +42,4 @@ func DadJoke(w http.ResponseWriter, r *http.Request) {
 	}
 	w.Write(response)
 }
+									
